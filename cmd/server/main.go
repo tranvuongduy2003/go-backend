@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/tranvuongduy2003/go-backend/internal/initializer"
 
 func main() {
-	fmt.Println("Starting server...")
+	initializer.Run()
 }
